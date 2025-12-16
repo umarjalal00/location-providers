@@ -24,16 +24,16 @@ $type = isset($atts['type']) ? $atts['type'] : 'hero';
                 <div class="legend">
                     <div class="legend-title">Legend</div>
                     <div class="legend-item">
-                        <div class="legend-color" style="background: #d1dae3;"></div>
+                        <div class="legend-color" style="background: #e5e7eb;"></div>
                         <span>Available States</span>
                     </div>
                     <div class="legend-item">
                         <div class="legend-color" style="background: #2563eb;"></div>
-                        <span>Current States</span>
+                        <span>Active States</span>
                     </div>
                     <div class="legend-item">
-                        <div class="legend-color" style="background: #7c3aed;"></div>
-                        <span>Upcoming States</span>
+                        <div class="legend-color" style="background: #10b981;"></div>
+                        <span>Coming Soon</span>
                     </div>
                 </div>
             </div>
@@ -51,13 +51,19 @@ $type = isset($atts['type']) ? $atts['type'] : 'hero';
                             <h3>Service Providers</h3>
                         </div>
                         <div class="sidebar-content">
-                            <div class="empty-state">Select a city pin to view providers</div>
+                            <div class="info-box">
+                                <div class="info-icon">👋</div>
+                                <div class="info-content">
+                                    <strong>Welcome!</strong>
+                                    <p>Select a state on the map to begin exploring service providers in your area</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+
     <?php else: ?>
         
         <!-- Single Country Page -->
